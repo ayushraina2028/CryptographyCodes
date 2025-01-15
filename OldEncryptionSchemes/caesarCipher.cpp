@@ -32,6 +32,7 @@ string decryption(string encryptedString) {
 int main() {
 
     string m;
+    cout << "Enter your message to Encrypt: " << endl;
     getline(cin,m);
 
     string encrptedString = EncryptionUsingCaesarCipher(m);
